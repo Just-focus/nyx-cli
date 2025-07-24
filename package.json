@@ -1,0 +1,38 @@
+{
+  "name": "nyx-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint:ts": "eslint --fix",
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
+    "commit": "git-cz",
+    "prepare": "husky",
+    "dev:cli": "pnpm --filter cli run dev",
+    "build:cli": "pnpm --filter cli run build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "commander": "^14.0.0",
+    "commitizen": "^4.3.1",
+    "commitlint": "^19.8.1",
+    "cspell": "^9.2.0",
+    "cz-git": "^1.12.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unicorn": "59.0.1",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  }
+}

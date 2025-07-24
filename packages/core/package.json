@@ -1,0 +1,17 @@
+{
+  "name": "@nyx-cli/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.ts",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nyx-cli/shared": "workspace:^",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.4.9"
+  }
+}
