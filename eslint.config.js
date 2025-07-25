@@ -1,7 +1,8 @@
-import js from '@eslint/js'
 import importSort from 'eslint-plugin-simple-import-sort'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
+
+import js from '@eslint/js'
 
 export default tseslint.config(
   {
