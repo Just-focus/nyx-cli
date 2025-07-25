@@ -1,1 +1,1 @@
-export { logger } from './src/logger'
+export * from './src'

@@ -7,11 +7,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "@babel/generator": "^7.28.0",
     "@nyx-cli/shared": "workspace:^",
+    "ejs": "^3.1.10",
     "picocolors": "^1.1.1",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
+    "@babel/types": "^7.28.2",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__traverse": "^7.20.7",
+    "@types/ejs": "^3.1.5",
     "@types/prompts": "^2.4.9"
   }
 }
